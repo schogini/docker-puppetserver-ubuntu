@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 
-MAINTAINER Sreeprakash Neelakantan <sree@localhost>
+MAINTAINER Sreeprakash Neelakantan <sree@schogini.com>
 
 ENV PUPPET_AGENT_VERSION="5.1.0" UBUNTU_CODENAME="xenial" DUMB_INIT_VERSION="1.2.0" PUPPETSERVER_JAVA_ARGS="-Xms256m -Xmx256m" PATH=/opt/puppetlabs/server/bin:/opt/puppetlabs/puppet/bin:/opt/puppetlabs/bin:$PATH PUPPET_HEALTHCHECK_ENVIRONMENT="production"
 
